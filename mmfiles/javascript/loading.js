@@ -3,4 +3,4 @@ function hide_loader() {
   loader.className += ' hidden';
 }
 
-window.addEventListener('load', hide_loader());
+window.on('load', hide_loader());
